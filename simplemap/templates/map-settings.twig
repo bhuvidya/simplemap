@@ -8,7 +8,7 @@
 	id: 'lat',
 	name: 'lat',
 	value: settings.lat,
-	type: 'number'
+	type: 'text'
 }) }}
 
 {{ forms.textField({
@@ -19,7 +19,7 @@
 	id: 'lng',
 	name: 'lng',
 	value: settings.lng,
-	type: 'number'
+	type: 'text'
 }) }}
 
 {{ forms.textField({
@@ -41,7 +41,7 @@
 	id: 'height',
 	name: 'height',
 	value: settings.height,
-	type: 'number'
+	type: 'text'
 }) }}
 
 {{ forms.lightswitchField({
@@ -89,7 +89,7 @@
 			id: 'boundaryRestrictionNElat',
 			name: 'boundaryRestrictionNElat',
 			value: settings.boundaryRestrictionNElat,
-			type: 'number'
+			type: 'text'
 		}) }}
 		{{ forms.text({
 			placeholder: 'Longitude',
@@ -97,7 +97,7 @@
 			id: 'boundaryRestrictionNElng',
 			name: 'boundaryRestrictionNElng',
 			value: settings.boundaryRestrictionNElng,
-			type: 'number'
+			type: 'text'
 		}) }}
 	</label>
 	<label style="color:#8f98a3;font-size:13px;font-weight:600;display:block">
@@ -108,7 +108,7 @@
 			id: 'boundaryRestrictionSWlat',
 			name: 'boundaryRestrictionSWlat',
 			value: settings.boundaryRestrictionSWlat,
-			type: 'number'
+			type: 'text'
 		}) }}
 		{{ forms.text({
 			placeholder: 'Longitude',
@@ -116,7 +116,7 @@
 			id: 'boundaryRestrictionSWlng',
 			name: 'boundaryRestrictionSWlng',
 			value: settings.boundaryRestrictionSWlng,
-			type: 'number'
+			type: 'text'
 		}) }}
 	</label>
 {% endset %}
